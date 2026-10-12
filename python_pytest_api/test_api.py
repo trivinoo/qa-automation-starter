@@ -1,6 +1,7 @@
-import urllib.request
-import json
-import pytest
+try:
+    import pytest
+except ImportError:
+    pytest = None
 
 BASE_URL = "http://127.0.0.1:8000"
 
@@ -54,3 +55,16 @@ def test_login_invalid_credentials():
         assert e.code == 401
         body = json.loads(e.read().decode())
         assert "error" in body
+
+if __name__ == "__main__":
+    print("Running QA API test suite...")
+    test_health_check()
+    print("✓ test_health_check passed")
+    test_get_products_list()
+    print("✓ test_get_products_list passed")
+    test_login_success()
+    print("✓ test_login_success passed")
+    test_login_invalid_credentials()
+    print("✓ test_login_invalid_credentials passed")
+    print("\nAll 4 test scenarios passed successfully!")
+
