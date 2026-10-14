@@ -1,0 +1,10 @@
+{
+  "ui.menu.start": "Iniciar juego",
+  "ui.menu.options": "Configuración",
+  "ui.menu.quit": "Salir al escritorio",
+  "ui.hud.health": "Salud: {current_hp} / {max_hp}",
+  "ui.dialog.quest_complete": "¡Felicidades {player_name}! Has recibido {gold_amount} oro y {xp_amount} EXP.",
+  "ui.inventory.full_warning": "¡Inventario lleno! No puedes llevar más objetos.",
+  "ui.button.confirm": "Confirmar",
+  "ui.button.cancel": "Cancelar"
+}

@@ -8,6 +8,12 @@ Welcome to your hands-on QA Automation learning repository. This project is stru
 
 ```
 qa-automation-starter/
+├── game_qa_automation/       # NEW: Gaming QA (FQA & LQA) Automation & Deep Research
+│   ├── docs/                 # In-depth architectural research & roadmap
+│   ├── fqa_functional_qa/    # Engine simulation, combat, inventory, and state tests
+│   ├── lqa_localization_qa/  # String auditor, pseudo-localization, UI overflow checks
+│   ├── shared_tools/         # HTML report dashboard generator
+│   └── run_game_qa_tests.py  # Master runner for gaming QA suites
 ├── mock_app/
 │   └── server.py             # Built-in lightweight test application (Web UI + REST API)
 ├── python_pytest_api/

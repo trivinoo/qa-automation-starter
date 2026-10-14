@@ -1,0 +1,10 @@
+{
+  "ui.menu.start": "[!!! Şŧȃřŧ Ɠȃɱḗ ~~~ !!!]",
+  "ui.menu.options": "[!!! Şḗŧŧīƞɠş ~~~ !!!]",
+  "ui.menu.quit": "[!!! Ɋŭīŧ ŧǿ Đḗşķŧǿƥ ~~~~~ !!!]",
+  "ui.hud.health": "[!!! ĦƤ: {current_hp} / {max_hp} ~~~~~~~~~ !!!]",
+  "ui.dialog.quest_complete": "[!!! Ćǿƞɠřȃŧŭŀȃŧīǿƞş {player_name}! Ẏǿŭ řḗćḗīṽḗđ {gold_amount} ɠǿŀđ ȃƞđ {xp_amount} ẊƤ. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ !!!]",
+  "ui.inventory.full_warning": "[!!! Īƞṽḗƞŧǿřẏ ƒŭŀŀ! Ćȃƞƞǿŧ ćȃřřẏ ɱǿřḗ īŧḗɱş. ~~~~~~~~~~~~~~ !!!]",
+  "ui.button.confirm": "[!!! Ćǿƞƒīřɱ ~~~ !!!]",
+  "ui.button.cancel": "[!!! Ćȃƞćḗŀ ~~~ !!!]"
+}

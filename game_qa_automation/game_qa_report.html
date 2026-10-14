@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game FQA & LQA Automation Dashboard</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f8fafc; padding: 2rem; max-width: 900px; margin: auto; }
+        h1 { color: #38bdf8; border-bottom: 1px solid #334155; padding-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>🎮 Game FQA & LQA Automation Dashboard</h1>
+    <p>Automated test session run on: 2026-10-13 22:17:59</p>
+    
+            <div style="background: #1e293b; padding: 16px; margin-bottom: 16px; border-radius: 8px; border-left: 4px solid #22c55e;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h3><span style="background: #3b82f6; color: white; padding: 4px 8px; border-radius: 4px; font-weight: bold;">FQA</span> &nbsp; Gameplay Mechanics & State Machine</h3>
+                    <div><span style="background: #22c55e; color: white; padding: 4px 8px; border-radius: 4px;">PASSED</span></div>
+                </div>
+                <ul style="color: #cbd5e1; font-family: monospace; font-size: 0.95rem;"><li>State machine transitions validated (MENU -> PLAYING)</li><li>Combat damage and lethal GAME_OVER trigger verified</li><li>Health healing cap (clamp at max_hp) verified</li><li>Inventory capacity boundary verified (5 items max)</li></ul>
+            </div>
+            
+            <div style="background: #1e293b; padding: 16px; margin-bottom: 16px; border-radius: 8px; border-left: 4px solid #22c55e;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h3><span style="background: #3b82f6; color: white; padding: 4px 8px; border-radius: 4px; font-weight: bold;">LQA</span> &nbsp; Localization Static String & Token Audit</h3>
+                    <div><span style="background: #22c55e; color: white; padding: 4px 8px; border-radius: 4px;">PASSED</span></div>
+                </div>
+                <ul style="color: #cbd5e1; font-family: monospace; font-size: 0.95rem;"><li>de_DE: PASS (Keys: 8, Expansions flagged: 1)</li><li>ja_JP: Identified 2 missing keys and 1 broken tokens (Defect detection working as expected)</li><li>Generated Pseudo-Localization asset [!!! ȁććḗƥŧ !!!] for font/clipping stress testing</li></ul>
+            </div>
+            
+            <div style="background: #1e293b; padding: 16px; margin-bottom: 16px; border-radius: 8px; border-left: 4px solid #ef4444;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h3><span style="background: #3b82f6; color: white; padding: 4px 8px; border-radius: 4px; font-weight: bold;">LQA</span> &nbsp; UI Boundary & Text Clipping Analysis</h3>
+                    <div><span style="background: #ef4444; color: white; padding: 4px 8px; border-radius: 4px;">FAILED</span></div>
+                </div>
+                <ul style="color: #cbd5e1; font-family: monospace; font-size: 0.95rem;"><li>Main Menu Quit Button: 'Zum Desktop beenden' overflows by ~34px [CRITICAL]</li><li>Modal Dialog Confirm Button: 'Bestätigen' overflows by ~2px [WARNING]</li></ul>
+            </div>
+            
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "ui.menu.start": "ゲーム開始",
+  "ui.menu.options": "設定",
+  "ui.hud.health": "HP: {current_hp} / {max_hp}",
+  "ui.dialog.quest_complete": "おめでとう {player_name}！{gold_amount} ゴールドと EXP を獲得しました。",
+  "ui.button.confirm": "確認",
+  "ui.button.cancel": "キャンセル"
+}

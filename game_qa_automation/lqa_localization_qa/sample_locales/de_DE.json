@@ -1,0 +1,10 @@
+{
+  "ui.menu.start": "Spiel starten",
+  "ui.menu.options": "Einstellungen",
+  "ui.menu.quit": "Zum Desktop beenden",
+  "ui.hud.health": "LP: {current_hp} / {max_hp}",
+  "ui.dialog.quest_complete": "Herzlichen Glückwunsch {player_name}! Du hast {gold_amount} Gold und {xp_amount} EP erhalten.",
+  "ui.inventory.full_warning": "Inventar voll! Es können keine weiteren Gegenstände getragen werden.",
+  "ui.button.confirm": "Bestätigen",
+  "ui.button.cancel": "Abbrechen"
+}

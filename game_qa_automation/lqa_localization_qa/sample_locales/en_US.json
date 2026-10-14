@@ -1,0 +1,10 @@
+{
+  "ui.menu.start": "Start Game",
+  "ui.menu.options": "Settings",
+  "ui.menu.quit": "Quit to Desktop",
+  "ui.hud.health": "HP: {current_hp} / {max_hp}",
+  "ui.dialog.quest_complete": "Congratulations {player_name}! You received {gold_amount} gold and {xp_amount} XP.",
+  "ui.inventory.full_warning": "Inventory full! Cannot carry more items.",
+  "ui.button.confirm": "Confirm",
+  "ui.button.cancel": "Cancel"
+}
