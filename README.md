@@ -8,7 +8,14 @@ Welcome to your hands-on QA Automation learning repository. This project is stru
 
 ```
 qa-automation-starter/
-├── game_qa_automation/       # NEW: Gaming QA (FQA & LQA) Automation & Deep Research
+├── game_qa_automation_lab/   # NEW: Complete Game QA Lab (Mini Engine, Driver SDK, 4 Test Suites, 3-Month Plan)
+│   ├── mini_game_engine/     # 2D Engine with Game Loop, GameObjects, & AltTester-style RPC Server
+│   ├── automation_sdk/       # GameDriver & GameElement SDK (AltTester / Airtest Poco pattern)
+│   ├── test_suites/          # Smoke/BVT, Combat Physics, Inventory Caps, & Autonomous Playtest Bot
+│   ├── curriculum/           # 3-Month Structured Learning Roadmap & Milestones
+│   ├── docs/                 # In-depth Game Industry QA Market Research
+│   └── run_lab_tests.py      # Master lab test runner
+├── game_qa_automation/       # Gaming QA (FQA & LQA) Automation & Deep Research
 │   ├── docs/                 # In-depth architectural research & roadmap
 │   ├── fqa_functional_qa/    # Engine simulation, combat, inventory, and state tests
 │   ├── lqa_localization_qa/  # String auditor, pseudo-localization, UI overflow checks
